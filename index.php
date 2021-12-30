@@ -39,8 +39,8 @@
                     <div class="align-items-center justify-content-center d-lg-none d-flex">
                         <img class="img-fluid" src="teamwok.png" alt="">
                     </div>
-                    <h3 class="title-text">Log In to continue</h3>
-                    <p class="caption-text">Please log in using that account has<br> registered on the website.</p>
+                    <h3 class="title-text">Book Web</h3>
+                    <p class="caption-text">Tolong log in menggunakan akun yang<br> telah terdaftah di web ini.</p>
                     <form style="margin-top: 1.5rem;" action="./proses/cek_login.php" method="post">
                         <div style="margin-bottom: 1.75rem;">
                             <label for="" class="d-block input-label">Username</label>
@@ -51,7 +51,7 @@
                         <div style="margin-top: 1rem;">
                             <label for="" class="d-block input-label">Password</label>
                             <div class="d-flex w-100 div-input">
-                                <input class="input-field" type="password" name="password" id="password-content-3-6" placeholder="Your Password" minlength="4" required>
+                                <input class="input-field" type="password" name="password" id="password-content-3-6" placeholder="Password.." minlength="4" required>
                                 <div onclick="togglePassword()">
                                     <svg style="margin-left: 0.75rem; cursor:pointer" width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path id="icon-toggle" fill-rule="evenodd" clip-rule="evenodd"
@@ -62,13 +62,13 @@
                             </div>
                         </div>
                         <div class="d-flex justify-content-end" style="margin-top: 0.75rem;">
-                            <a href="#" class="forgot-password fst-italic">Forgot Password?</a>
+                            <a href="#" class="forgot-password fst-italic">Lupa Password?</a>
                         </div>
-                        <button class="btn btn-fill text-white d-block w-100" type="submit" value="LOGIN">Log In To My Account</button>
+                        <button class="btn btn-fill text-white d-block w-100" type="submit" value="LOGIN">Log In</button>
                     </form>
-                    <p class="text-center bottom-caption">Don't have an account yet?
+                    <p class="text-center bottom-caption">Belum punya Akun?
                         <a href="./register.php">
-                            <span class="green-bottom-caption">Register Here</span>
+                            <span class="green-bottom-caption">Register Disini</span>
                         </a>
                     </p>
                 </div>
