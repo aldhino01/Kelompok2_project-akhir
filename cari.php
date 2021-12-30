@@ -62,3 +62,4 @@ while($baris = mysqli_fetch_array($result))
         ";
 }
 ?>
+
