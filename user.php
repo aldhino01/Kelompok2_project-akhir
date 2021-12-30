@@ -35,7 +35,7 @@
                     <div class='card-body'>
                         <h5 class='card-title'> $baris[1]</h5>
                         <p class='card-text'><h6>Penulis : $baris[2]</h6> <h6>Jenis Buku : $baris[3]</h6> </p>
-                        <a href='detail_buku.php?id_buku=$baris[0]' class='btn btn-warning btn-sm'>Baca</a>&nbsp&nbsp&nbsp<a href='hapus.php?id_buku=$baris[0]' class='btn btn-warning btn-sm'>Beli</a>
+                        <a href='detail_buku.php?id_buku=$baris[0]' class='btn btn-warning btn-sm'>Baca</a>&nbsp&nbsp&nbsp<a href='beli_buku.php?id_buku=$baris[0]' class='btn btn-warning btn-sm'>Beli</a>
                     </div>    
                 </div>
                 </div>"; 
