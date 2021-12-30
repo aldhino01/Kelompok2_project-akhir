@@ -12,7 +12,7 @@
                     <nav class='navbar navbar-light' style='background-color: #232130; color:white  '>
                         <div class='container-fluid'>
                             <h1>Cari Data Buku</h1>                   
-                                <a href='tampil.php'>
+                                <a href='user.php'>
                                     <button type='button' class='btn btn-primary btn-sm' data-bs-toggle='modal'>
                                     Lihat Data
                                     </button>
